@@ -1,0 +1,101 @@
+<html>
+<head>
+	<title>Coding ba ako</title>
+	<link rel="stylesheet" href="../static/css/bootstrap.css">
+	<link rel="stylesheet" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../static/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="../static/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" media="screen and (min-width: 0px)" href="../static/css/xs.css">
+	<link rel="stylesheet" media="screen and (min-width: 900px)" href="../static/css/small.css">
+	<link rel="stylesheet" media="screen and (min-width: 1200px)" href="../static/css/medium.css">
+</head>
+
+<body>
+	<div id="home">
+		<center>	
+			<div id="tag">For People With Better Things To Remember...</div><br>
+			<div id="smallTag">We'll send you a reminder of your car's number coding for free!</div><br>
+			<button type="button" id="getStarted" class="btn btn-custom">Get Started</button>			
+		</center>
+	</div>	
+
+	<div id="form">
+		<center>
+			<div class="step">
+				<div class="number">
+					1
+				</div>
+				Fill out the form below
+			</div>
+			<div class="step">
+				<div class="number">
+					2
+				</div>
+				Hit Done
+			</div>
+			<div class="step">
+				<div class="number">
+					3
+				</div>
+				Do your thing and wait for our weekly reminder
+			</div>
+		</center>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<input type="text" id="name" class="form-control" placeholder="First Name">
+				<select id="ending" class="form-control">
+				    <option value="one">Ending Plate</option>
+				    <option value="two">0</option>
+				    <option value="three">1</option>
+				    <option value="four">2</option>
+				    <option value="five">3</option>
+				    <option value="five">4</option>
+				    <option value="five">5</option>
+				    <option value="five">6</option>
+				    <option value="five">7</option>
+				    <option value="five">8</option>
+				    <option value="five">9</option>
+				</select>
+				<input type="text" id="mobileNumber" class="form-control" placeholder="Mobile Number">
+				<input type="text" id="car" class="form-control" placeholder="Car">
+				<select class="form-control">
+				    <option value="one">City</option>
+				    <option value="two">Two</option>
+				    <option value="three">Three</option>
+				    <option value="four">Four</option>
+				    <option value="five">Five</option>
+				</select>
+				<br>
+				<center>
+
+				<span id="remindMe">When should we remind you?</span>
+				<select class="form-control">
+				    <option value="one">A Day Before</option>
+				    <option value="two">On The Day</option>
+				    <option value="three">A Day Before and On The Day</option>
+				</select>
+				<br>
+				<form oninput="updateTextInput(timeSlider.value)">	
+					<input class="form-control" id="timeOutput" value="7:00">	
+					<input class="time" id="timeSlider" type="range" max="1439" value="420" step="30">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		dv
+	</div>
+	<script src="../static/js/jquery-1.11.0.min.js"></script>
+	<script src="../static/js/bootstrap.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="../static/js/highlight.min.js"></script>
+	<script src="../static/js/cbk.js"></script>
+	<script src="../static/js/animations.js"></script>
+</body>
+
+
+
+</html>
+
